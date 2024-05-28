@@ -1,21 +1,20 @@
 {
-  "name": "skeleton",
-  "version": "2.0.4",
-  "homepage": "http://getskeleton.com/",
+  "name": "Adamicka Dev",
+  "version": "1.0.4",
+  "homepage": "http://adamicska.dev/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dhg/Skeleton"
+    "url": "https://github.com/adamicska"
   },
   "authors": [
-    "Dave Gamache <hello@davegamache.com> (http://davegamache.com/)"
+    "Andrew Adamicska <me@adamicska.dev> (http://adamicska.dev/)"
   ],
-  "description": "Skeleton is a dead-simple, responsive boilerplate to kickstart any responsive project.",
-  "main": "css/skeleton.css",
+  "description": "My simple, static, dev portfolio website.",
   "keywords": [
-    "css",
+    "portfolio",
     "skeleton",
     "responsive",
-    "boilerplate"
+    "webdev"
   ],
   "license": "MIT"
 }
