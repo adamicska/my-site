@@ -225,7 +225,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.6rem;
+  font-size: 1.8rem;
   line-height: 1.25;
   letter-spacing: -.1rem;
 }
@@ -266,7 +266,7 @@ p {
   } */
 
   h2 {
-    font-size: 4.2rem;
+    font-size: 2.4rem;
   }
 
   h3 {
@@ -522,6 +522,14 @@ td:last-child {
 button,
 .button {
   margin-bottom: 1rem;
+}
+
+@media (max-width: 440px) {
+  button,
+  .button {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
 }
 
 input,
@@ -785,54 +793,3 @@ there.
       1100px 65px 0 0 black;
   }
 }
-
-
-/* @-moz-keyframes eat {
-  0% {
-    box-shadow:
-      100px 65px 0 0 black,
-      300px 65px 0 0 black,
-      500px 65px 0 0 black,
-      700px 65px 0 0 black,
-      900px 65px 0 0 black,
-      1100px 65px 0 0 black,
-      1300px 65px 0 0 black;
-  }
-
-  100% {
-    box-shadow:
-      0px 65px 0 0 black,
-      100px 65px 0 0 black,
-      300px 65px 0 0 black,
-      500px 65px 0 0 black,
-      700px 65px 0 0 black,
-      900px 65px 0 0 black,
-      1100px 65px 0 0 black;
-  }
-}
-
-
-
-@-webkit-keyframes eat {
-  0% {
-    box-shadow:
-      100px 65px 0 0 black,
-      300px 65px 0 0 black,
-      500px 65px 0 0 black,
-      700px 65px 0 0 black,
-      900px 65px 0 0 black,
-      1100px 65px 0 0 black,
-      1300px 65px 0 0 black;
-  }
-
-  100% {
-    box-shadow:
-      0px 65px 0 0 black,
-      100px 65px 0 0 black,
-      300px 65px 0 0 black,
-      500px 65px 0 0 black,
-      700px 65px 0 0 black,
-      900px 65px 0 0 black,
-      1100px 65px 0 0 black;
-  }
-} */
