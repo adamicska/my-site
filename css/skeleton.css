@@ -35,15 +35,21 @@
 }
 
 /* For devices larger than 550px */
+@media (min-width: 1000px) {
+  .column,
+  .columns {
+    margin-left: 4%;
+  }
+}
 @media (min-width: 550px) {
   .container {
     width: 80%;
   }
 
-  .column,
+  /* .column,
   .columns {
     margin-left: 4%;
-  }
+  } */
 
   .column:first-child,
   .columns:first-child {
@@ -231,15 +237,16 @@ h2 {
 }
 
 h3 {
-  font-size: 3.0rem;
+  font-size: 1.8rem;
   line-height: 1.3;
   letter-spacing: -.1rem;
 }
 
 h4 {
-  font-size: 2.4rem;
+  font-size: 1.4rem;
   line-height: 1.35;
   letter-spacing: -.08rem;
+  font-weight: 700;
 }
 
 h5 {
@@ -270,11 +277,11 @@ p {
   }
 
   h3 {
-    font-size: 3.6rem;
+    font-size: 2.4rem;
   }
 
   h4 {
-    font-size: 3.0rem;
+    font-size: 1.8rem;
   }
 
   h5 {
