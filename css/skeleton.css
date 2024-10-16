@@ -569,6 +569,7 @@ form {
 .u-max-full-width {
   max-width: 100%;
   box-sizing: border-box;
+  height: auto;
 }
 
 .u-pull-right {
